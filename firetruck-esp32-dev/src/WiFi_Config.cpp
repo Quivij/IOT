@@ -1,7 +1,8 @@
 #include "WiFi_Config.h"
+#include"Env.cpp"
 
-const char* STA_SSID = "KTX-H05";
-const char* STA_PASS = "@Concac123";
+const char* STA_SSID = wifi;
+const char* STA_PASS = pwd;
 const char* AP_SSID  = "FIRETRUCK_AP";
 const char* AP_PASS  = "12345678";
 
